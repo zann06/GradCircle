@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'framer-motion';
 import FaridImg from './assets/member/farid.png';
+import RidhoImg from './assets/member/ridho.png';
 
 
 import Photo1 from './assets/archive/a1.png';
@@ -328,7 +329,7 @@ export default function App() {
 
   const members = [
     { name: "Farid", role: "Bismillah Front-End Developer", quote: "Nasgor goreng nomor 1", img: FaridImg},
-    { name: "Ridho", role: "Mau Jadi Hacker", quote: "Hidup Seperti Larry", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" },
+    { name: "Ridho", role: "Mau Jadi Hacker", quote: "Hidup Seperti Larry", img: RidhoImg },
     { name: "Adit", role: "Role", quote: "Quote", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop" },
     { name: "Hafidz", role: "Role", quote: "Quote", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop" },
     { name: "Richard", role: "Role", quote: "Quote", img: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop" },
