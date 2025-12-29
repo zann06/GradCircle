@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'framer-motion';
 import FaridImg from './assets/member/farid.png';
-import RidhoImg from './assets/member/ridho.png';
+import RidhoImg from './assets/member/udin.png';
 import AryoImg from './assets/member/aryo.jpeg';
 
 
